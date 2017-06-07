@@ -1,14 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      MullerC
-#
-# Created:     06-06-2017
-# Copyright:   (c) MullerC 2017
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-
 def main():
     pass
 
@@ -16,6 +5,10 @@ if __name__ == '__main__':
     main()
 
 import os,arcpy
+
+from arcpy import env
+
+env.overwriteoutput = True
 
 # Output folder where the Google Earth Files will be saved
 folder = r"Your path here"
