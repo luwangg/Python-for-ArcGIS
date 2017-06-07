@@ -18,10 +18,10 @@ if __name__ == '__main__':
 import os,arcpy
 
 # Output folder where the Google Earth Files will be saved
-folder = r"I:\0200\0243\0243-198\5\Google\2017-06-06\New"
+folder = r"Your path here"
 
 # Specificy the map document you wish to export from
-mxd = arcpy.mapping.MapDocument(r"E:\Temp\243-0050_Master_Plan_Layout_Rev02.mxd")
+mxd = arcpy.mapping.MapDocument(r"Your mxd here")
 
 # "Layers" is the dataframe to export layers from
 df = arcpy.mapping.ListDataFrames(mxd, "Layers")[0]
